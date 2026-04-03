@@ -1,0 +1,11 @@
+CREATE TABLE students (
+    id INTEGER PRIMARY KEY,
+    name TEXT,
+    age INTEGER,
+    grade TEXT
+);
+INSERT INTO students (id, name, age, grade) VALUES (1, 'Олександр', 20, 'A');
+INSERT INTO students (id, name, age, grade) VALUES (2, 'Марія', 19, 'B');
+INSERT INTO students (id, name, age, grade) VALUES (3, 'Дмитро', 21, 'C');
+INSERT INTO students (id, name, age, grade) VALUES (4, 'Анна', 20, 'A');
+INSERT INTO students (id, name, age, grade) VALUES (5, 'Артем', 22, 'B');
